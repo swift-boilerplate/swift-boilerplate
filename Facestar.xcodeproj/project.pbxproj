@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B5F06A1E4EC31900427BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5F0691E4EC31900427BEC /* AppDelegate.swift */; };
+		A2B5F06C1E4EC31900427BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5F06B1E4EC31900427BEC /* ViewController.swift */; };
+		A2B5F06F1E4EC31900427BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B5F06D1E4EC31900427BEC /* Main.storyboard */; };
+		A2B5F0711E4EC31900427BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B5F0701E4EC31900427BEC /* Assets.xcassets */; };
+		A2B5F0741E4EC31900427BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B5F0721E4EC31900427BEC /* LaunchScreen.storyboard */; };
+		A2B5F07F1E4EC31900427BEC /* FacestarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5F07E1E4EC31900427BEC /* FacestarTests.swift */; };
+		A2B5F08A1E4EC31900427BEC /* FacestarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5F0891E4EC31900427BEC /* FacestarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B5F07B1E4EC31900427BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B5F05E1E4EC31800427BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B5F0651E4EC31900427BEC;
+			remoteInfo = Facestar;
+		};
+		A2B5F0861E4EC31900427BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B5F05E1E4EC31800427BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B5F0651E4EC31900427BEC;
+			remoteInfo = Facestar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2B5F0661E4EC31900427BEC /* Facestar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facestar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B5F0691E4EC31900427BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2B5F06B1E4EC31900427BEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2B5F06E1E4EC31900427BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B5F0701E4EC31900427BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B5F0731E4EC31900427BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2B5F0751E4EC31900427BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B5F07A1E4EC31900427BEC /* FacestarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacestarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B5F07E1E4EC31900427BEC /* FacestarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacestarTests.swift; sourceTree = "<group>"; };
+		A2B5F0801E4EC31900427BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B5F0851E4EC31900427BEC /* FacestarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacestarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B5F0891E4EC31900427BEC /* FacestarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacestarUITests.swift; sourceTree = "<group>"; };
+		A2B5F08B1E4EC31900427BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B5F0631E4EC31900427BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B5F0771E4EC31900427BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B5F0821E4EC31900427BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B5F05D1E4EC31800427BEC = {
+			isa = PBXGroup;
+			children = (
+				A2B5F0681E4EC31900427BEC /* Facestar */,
+				A2B5F07D1E4EC31900427BEC /* FacestarTests */,
+				A2B5F0881E4EC31900427BEC /* FacestarUITests */,
+				A2B5F0671E4EC31900427BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B5F0671E4EC31900427BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B5F0661E4EC31900427BEC /* Facestar.app */,
+				A2B5F07A1E4EC31900427BEC /* FacestarTests.xctest */,
+				A2B5F0851E4EC31900427BEC /* FacestarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B5F0681E4EC31900427BEC /* Facestar */ = {
+			isa = PBXGroup;
+			children = (
+				A2B5F0691E4EC31900427BEC /* AppDelegate.swift */,
+				A2B5F06B1E4EC31900427BEC /* ViewController.swift */,
+				A2B5F06D1E4EC31900427BEC /* Main.storyboard */,
+				A2B5F0701E4EC31900427BEC /* Assets.xcassets */,
+				A2B5F0721E4EC31900427BEC /* LaunchScreen.storyboard */,
+				A2B5F0751E4EC31900427BEC /* Info.plist */,
+			);
+			path = Facestar;
+			sourceTree = "<group>";
+		};
+		A2B5F07D1E4EC31900427BEC /* FacestarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B5F07E1E4EC31900427BEC /* FacestarTests.swift */,
+				A2B5F0801E4EC31900427BEC /* Info.plist */,
+			);
+			path = FacestarTests;
+			sourceTree = "<group>";
+		};
+		A2B5F0881E4EC31900427BEC /* FacestarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B5F0891E4EC31900427BEC /* FacestarUITests.swift */,
+				A2B5F08B1E4EC31900427BEC /* Info.plist */,
+			);
+			path = FacestarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B5F0651E4EC31900427BEC /* Facestar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B5F08E1E4EC31900427BEC /* Build configuration list for PBXNativeTarget "Facestar" */;
+			buildPhases = (
+				A2B5F0621E4EC31900427BEC /* Sources */,
+				A2B5F0631E4EC31900427BEC /* Frameworks */,
+				A2B5F0641E4EC31900427BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facestar;
+			productName = Facestar;
+			productReference = A2B5F0661E4EC31900427BEC /* Facestar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B5F0791E4EC31900427BEC /* FacestarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B5F0911E4EC31900427BEC /* Build configuration list for PBXNativeTarget "FacestarTests" */;
+			buildPhases = (
+				A2B5F0761E4EC31900427BEC /* Sources */,
+				A2B5F0771E4EC31900427BEC /* Frameworks */,
+				A2B5F0781E4EC31900427BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B5F07C1E4EC31900427BEC /* PBXTargetDependency */,
+			);
+			name = FacestarTests;
+			productName = FacestarTests;
+			productReference = A2B5F07A1E4EC31900427BEC /* FacestarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2B5F0841E4EC31900427BEC /* FacestarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B5F0941E4EC31900427BEC /* Build configuration list for PBXNativeTarget "FacestarUITests" */;
+			buildPhases = (
+				A2B5F0811E4EC31900427BEC /* Sources */,
+				A2B5F0821E4EC31900427BEC /* Frameworks */,
+				A2B5F0831E4EC31900427BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B5F0871E4EC31900427BEC /* PBXTargetDependency */,
+			);
+			name = FacestarUITests;
+			productName = FacestarUITests;
+			productReference = A2B5F0851E4EC31900427BEC /* FacestarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B5F05E1E4EC31800427BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JohnP;
+				TargetAttributes = {
+					A2B5F0651E4EC31900427BEC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7854ND92R4;
+						ProvisioningStyle = Automatic;
+					};
+					A2B5F0791E4EC31900427BEC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7854ND92R4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2B5F0651E4EC31900427BEC;
+					};
+					A2B5F0841E4EC31900427BEC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7854ND92R4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A2B5F0651E4EC31900427BEC;
+					};
+				};
+			};
+			buildConfigurationList = A2B5F0611E4EC31800427BEC /* Build configuration list for PBXProject "Facestar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2B5F05D1E4EC31800427BEC;
+			productRefGroup = A2B5F0671E4EC31900427BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B5F0651E4EC31900427BEC /* Facestar */,
+				A2B5F0791E4EC31900427BEC /* FacestarTests */,
+				A2B5F0841E4EC31900427BEC /* FacestarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B5F0641E4EC31900427BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B5F0741E4EC31900427BEC /* LaunchScreen.storyboard in Resources */,
+				A2B5F0711E4EC31900427BEC /* Assets.xcassets in Resources */,
+				A2B5F06F1E4EC31900427BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B5F0781E4EC31900427BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B5F0831E4EC31900427BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B5F0621E4EC31900427BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B5F06C1E4EC31900427BEC /* ViewController.swift in Sources */,
+				A2B5F06A1E4EC31900427BEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B5F0761E4EC31900427BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B5F07F1E4EC31900427BEC /* FacestarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B5F0811E4EC31900427BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B5F08A1E4EC31900427BEC /* FacestarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B5F07C1E4EC31900427BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B5F0651E4EC31900427BEC /* Facestar */;
+			targetProxy = A2B5F07B1E4EC31900427BEC /* PBXContainerItemProxy */;
+		};
+		A2B5F0871E4EC31900427BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B5F0651E4EC31900427BEC /* Facestar */;
+			targetProxy = A2B5F0861E4EC31900427BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B5F06D1E4EC31900427BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B5F06E1E4EC31900427BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B5F0721E4EC31900427BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B5F0731E4EC31900427BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B5F08C1E4EC31900427BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2B5F08D1E4EC31900427BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B5F08F1E4EC31900427BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7854ND92R4;
+				INFOPLIST_FILE = Facestar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.Facestar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2B5F0901E4EC31900427BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7854ND92R4;
+				INFOPLIST_FILE = Facestar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.Facestar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A2B5F0921E4EC31900427BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7854ND92R4;
+				INFOPLIST_FILE = FacestarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.FacestarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facestar.app/Facestar";
+			};
+			name = Debug;
+		};
+		A2B5F0931E4EC31900427BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7854ND92R4;
+				INFOPLIST_FILE = FacestarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.FacestarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facestar.app/Facestar";
+			};
+			name = Release;
+		};
+		A2B5F0951E4EC31900427BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7854ND92R4;
+				INFOPLIST_FILE = FacestarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.FacestarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Facestar;
+			};
+			name = Debug;
+		};
+		A2B5F0961E4EC31900427BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7854ND92R4;
+				INFOPLIST_FILE = FacestarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jp.FacestarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Facestar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B5F0611E4EC31800427BEC /* Build configuration list for PBXProject "Facestar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B5F08C1E4EC31900427BEC /* Debug */,
+				A2B5F08D1E4EC31900427BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B5F08E1E4EC31900427BEC /* Build configuration list for PBXNativeTarget "Facestar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B5F08F1E4EC31900427BEC /* Debug */,
+				A2B5F0901E4EC31900427BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B5F0911E4EC31900427BEC /* Build configuration list for PBXNativeTarget "FacestarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B5F0921E4EC31900427BEC /* Debug */,
+				A2B5F0931E4EC31900427BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B5F0941E4EC31900427BEC /* Build configuration list for PBXNativeTarget "FacestarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B5F0951E4EC31900427BEC /* Debug */,
+				A2B5F0961E4EC31900427BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B5F05E1E4EC31800427BEC /* Project object */;
+}

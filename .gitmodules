@@ -1,0 +1,6 @@
+[submodule "Framework/Prelude"]
+	path = Framework/Prelude
+	url = git@github.com:kickstarter/Kickstarter-Prelude.git
+[submodule "Framework/ReactiveExtensions"]
+	path = Framework/ReactiveExtensions
+	url = git@github.com:kickstarter/Kickstarter-ReactiveExtensions.git

@@ -2,6 +2,13 @@
 🔥 A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.
 
 ## Quickstart
+```
+npm install -g swift-cli
+swift-cli init your_new_app
+cd your_new_app
+make boostrap
+open your_new_app.xcodeproj
+```
 ## Available Commands
 ## File Structure
 ## Misc

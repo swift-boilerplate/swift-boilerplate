@@ -88,7 +88,7 @@ internal final class RootViewModel: RootViewModelType, RootViewModelInputs, Root
         let standardViewControllers = self.viewDidLoadProperty.signal
             .map { _ in
                 [
-                    DiscoveryViewController.instantiate(),
+                    HomeViewController.instantiate(),
                     ProfileViewController.instantiate()
                 ]
             }

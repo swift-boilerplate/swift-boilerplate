@@ -4,14 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Boilerplate.xcscheme</key>
+		<key>Instaword 2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Instaword.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A2AF09A71E9764580016B9BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2AF09BA1E9764B00016B9BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A2B5F0651E4EC31900427BEC</key>
 		<dict>
 			<key>primary</key>

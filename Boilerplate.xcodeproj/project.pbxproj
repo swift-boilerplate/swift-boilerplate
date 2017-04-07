@@ -11,33 +11,12 @@
 		A229A7241E4F10860050A824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A229A7231E4F10860050A824 /* Main.storyboard */; };
 		A229A7261E4F10FC0050A824 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A7251E4F10FC0050A824 /* RootTabBarViewController.swift */; };
 		A229A7281E4F118E0050A824 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A7271E4F118E0050A824 /* RootViewModel.swift */; };
-		A229A73F1E4F12EF0050A824 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A72D1E4F12EF0050A824 /* Alamofire.framework */; };
 		A229A7401E4F12EF0050A824 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A72D1E4F12EF0050A824 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7411E4F12EF0050A824 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A72E1E4F12EF0050A824 /* AlamofireImage.framework */; };
 		A229A7421E4F12EF0050A824 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A72E1E4F12EF0050A824 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7431E4F12EF0050A824 /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A72F1E4F12EF0050A824 /* Apollo.framework */; };
-		A229A7441E4F12EF0050A824 /* Apollo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A72F1E4F12EF0050A824 /* Apollo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7451E4F12EF0050A824 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7301E4F12EF0050A824 /* Argo.framework */; };
 		A229A7461E4F12EF0050A824 /* Argo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7301E4F12EF0050A824 /* Argo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7471E4F12EF0050A824 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7311E4F12EF0050A824 /* AsyncDisplayKit.framework */; };
-		A229A7481E4F12EF0050A824 /* AsyncDisplayKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7311E4F12EF0050A824 /* AsyncDisplayKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7491E4F12EF0050A824 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7321E4F12EF0050A824 /* Curry.framework */; };
 		A229A74A1E4F12EF0050A824 /* Curry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7321E4F12EF0050A824 /* Curry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A74B1E4F12EF0050A824 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7331E4F12EF0050A824 /* Eureka.framework */; };
-		A229A74C1E4F12EF0050A824 /* Eureka.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7331E4F12EF0050A824 /* Eureka.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A74D1E4F12EF0050A824 /* ExpandingCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7341E4F12EF0050A824 /* ExpandingCollection.framework */; };
-		A229A74E1E4F12EF0050A824 /* ExpandingCollection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7341E4F12EF0050A824 /* ExpandingCollection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A74F1E4F12EF0050A824 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7351E4F12EF0050A824 /* PINCache.framework */; };
-		A229A7501E4F12EF0050A824 /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7351E4F12EF0050A824 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7511E4F12EF0050A824 /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7361E4F12EF0050A824 /* PINRemoteImage.framework */; };
-		A229A7521E4F12EF0050A824 /* PINRemoteImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7361E4F12EF0050A824 /* PINRemoteImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7531E4F12EF0050A824 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7371E4F12EF0050A824 /* ReactiveCocoa.framework */; };
-		A229A7541E4F12EF0050A824 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7371E4F12EF0050A824 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7551E4F12EF0050A824 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7381E4F12EF0050A824 /* ReactiveSwift.framework */; };
 		A229A7561E4F12EF0050A824 /* ReactiveSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7381E4F12EF0050A824 /* ReactiveSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7571E4F12EF0050A824 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7391E4F12EF0050A824 /* Result.framework */; };
 		A229A7581E4F12EF0050A824 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7391E4F12EF0050A824 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7591E4F12EF0050A824 /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A73A1E4F12EF0050A824 /* Runes.framework */; };
 		A229A75A1E4F12EF0050A824 /* Runes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A73A1E4F12EF0050A824 /* Runes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A229A7671E4F154D0050A824 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A7661E4F154D0050A824 /* DashboardViewController.swift */; };
 		A229A7691E4F15670050A824 /* LoginToutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A7681E4F15670050A824 /* LoginToutViewController.swift */; };
@@ -53,11 +32,8 @@
 		A229A78D1E4F178E0050A824 /* UIScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A77E1E4F178E0050A824 /* UIScreenType.swift */; };
 		A229A78E1E4F178E0050A824 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A77F1E4F178E0050A824 /* UIScrollView+Extensions.swift */; };
 		A229A7901E4F178E0050A824 /* UIViewController-Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A7811E4F178E0050A824 /* UIViewController-Preparation.swift */; };
-		A229A7B71E4F1CE00050A824 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7B41E4F1CE00050A824 /* FBSDKCoreKit.framework */; };
 		A229A7B81E4F1CE00050A824 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7B41E4F1CE00050A824 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7B91E4F1CE00050A824 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7B51E4F1CE00050A824 /* FBSDKLoginKit.framework */; };
 		A229A7BA1E4F1CE00050A824 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7B51E4F1CE00050A824 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A229A7BB1E4F1CE00050A824 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7B61E4F1CE00050A824 /* FBSDKShareKit.framework */; };
 		A229A7BC1E4F1CE00050A824 /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A229A7B61E4F1CE00050A824 /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A24ED9A11E51E13400457828 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24ED9A01E51E13400457828 /* AppEnvironment.swift */; };
 		A24ED9A41E51E18100457828 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24ED9A31E51E18100457828 /* User.swift */; };
@@ -67,6 +43,9 @@
 		A24ED9E61E51F26C00457828 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24ED9E51E51F26C00457828 /* Profile.storyboard */; };
 		A24ED9E91E522B6000457828 /* TabBarItemStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24ED9E81E522B6000457828 /* TabBarItemStyles.swift */; };
 		A24ED9EE1E52A3CE00457828 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24ED9ED1E52A3CE00457828 /* Home.storyboard */; };
+		A2AF099C1E97574B0016B9BD /* Prelude.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF09991E97573F0016B9BD /* Prelude.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2AF09A01E97576F0016B9BD /* Prelude_UIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF099D1E97576B0016B9BD /* Prelude_UIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2AF09A31E9757AD0016B9BD /* ReactiveExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2AF09A11E9757AD0016B9BD /* ReactiveExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A2B5F06A1E4EC31900427BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5F0691E4EC31900427BEC /* AppDelegate.swift */; };
 		A2B5F06C1E4EC31900427BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B5F06B1E4EC31900427BEC /* ViewController.swift */; };
 		A2B5F0711E4EC31900427BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B5F0701E4EC31900427BEC /* Assets.xcassets */; };
@@ -80,22 +59,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A229A7521E4F12EF0050A824 /* PINRemoteImage.framework in Embed Frameworks */,
-				A229A7441E4F12EF0050A824 /* Apollo.framework in Embed Frameworks */,
-				A229A74C1E4F12EF0050A824 /* Eureka.framework in Embed Frameworks */,
 				A229A7B81E4F1CE00050A824 /* FBSDKCoreKit.framework in Embed Frameworks */,
-				A229A7541E4F12EF0050A824 /* ReactiveCocoa.framework in Embed Frameworks */,
+				A2AF09A31E9757AD0016B9BD /* ReactiveExtensions.framework in Embed Frameworks */,
+				A2AF09A01E97576F0016B9BD /* Prelude_UIKit.framework in Embed Frameworks */,
 				A229A7401E4F12EF0050A824 /* Alamofire.framework in Embed Frameworks */,
 				A229A7BC1E4F1CE00050A824 /* FBSDKShareKit.framework in Embed Frameworks */,
-				A229A74E1E4F12EF0050A824 /* ExpandingCollection.framework in Embed Frameworks */,
 				A229A7BA1E4F1CE00050A824 /* FBSDKLoginKit.framework in Embed Frameworks */,
 				A229A75A1E4F12EF0050A824 /* Runes.framework in Embed Frameworks */,
 				A229A74A1E4F12EF0050A824 /* Curry.framework in Embed Frameworks */,
+				A2AF099C1E97574B0016B9BD /* Prelude.framework in Embed Frameworks */,
 				A229A7581E4F12EF0050A824 /* Result.framework in Embed Frameworks */,
 				A229A7421E4F12EF0050A824 /* AlamofireImage.framework in Embed Frameworks */,
 				A229A7461E4F12EF0050A824 /* Argo.framework in Embed Frameworks */,
-				A229A7481E4F12EF0050A824 /* AsyncDisplayKit.framework in Embed Frameworks */,
-				A229A7501E4F12EF0050A824 /* PINCache.framework in Embed Frameworks */,
 				A229A7561E4F12EF0050A824 /* ReactiveSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -110,22 +85,11 @@
 		A229A7271E4F118E0050A824 /* RootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewModel.swift; path = ViewModels/RootViewModel.swift; sourceTree = "<group>"; };
 		A229A72D1E4F12EF0050A824 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		A229A72E1E4F12EF0050A824 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
-		A229A72F1E4F12EF0050A824 /* Apollo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Apollo.framework; path = Carthage/Build/iOS/Apollo.framework; sourceTree = "<group>"; };
 		A229A7301E4F12EF0050A824 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
-		A229A7311E4F12EF0050A824 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		A229A7321E4F12EF0050A824 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
-		A229A7331E4F12EF0050A824 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
-		A229A7341E4F12EF0050A824 /* ExpandingCollection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExpandingCollection.framework; path = Carthage/Build/iOS/ExpandingCollection.framework; sourceTree = "<group>"; };
-		A229A7351E4F12EF0050A824 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
-		A229A7361E4F12EF0050A824 /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
-		A229A7371E4F12EF0050A824 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		A229A7381E4F12EF0050A824 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
 		A229A7391E4F12EF0050A824 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		A229A73A1E4F12EF0050A824 /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
-		A229A73B1E4F12EF0050A824 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
-		A229A73C1E4F12EF0050A824 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		A229A73D1E4F12EF0050A824 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		A229A73E1E4F12EF0050A824 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		A229A7661E4F154D0050A824 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = Views/Controllers/DashboardViewController.swift; sourceTree = "<group>"; };
 		A229A7681E4F15670050A824 /* LoginToutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginToutViewController.swift; path = Views/Controllers/LoginToutViewController.swift; sourceTree = "<group>"; };
 		A229A76A1E4F157B0050A824 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Views/Controllers/ProfileViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +115,9 @@
 		A24ED9E51E51F26C00457828 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = Views/Storyboards/Profile.storyboard; sourceTree = "<group>"; };
 		A24ED9E81E522B6000457828 /* TabBarItemStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarItemStyles.swift; path = Library/Styles/TabBarItemStyles.swift; sourceTree = "<group>"; };
 		A24ED9ED1E52A3CE00457828 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Views/Storyboards/Home.storyboard; sourceTree = "<group>"; };
+		A2AF09991E97573F0016B9BD /* Prelude.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude.framework; path = Carthage/Build/iOS/Prelude.framework; sourceTree = "<group>"; };
+		A2AF099D1E97576B0016B9BD /* Prelude_UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Prelude_UIKit.framework; path = Carthage/Build/iOS/Prelude_UIKit.framework; sourceTree = "<group>"; };
+		A2AF09A11E9757AD0016B9BD /* ReactiveExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveExtensions.framework; path = Carthage/Build/iOS/ReactiveExtensions.framework; sourceTree = "<group>"; };
 		A2B5F0661E4EC31900427BEC /* Boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B5F0691E4EC31900427BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B5F06B1E4EC31900427BEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,23 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A229A7511E4F12EF0050A824 /* PINRemoteImage.framework in Frameworks */,
-				A229A7431E4F12EF0050A824 /* Apollo.framework in Frameworks */,
-				A229A74B1E4F12EF0050A824 /* Eureka.framework in Frameworks */,
-				A229A7B71E4F1CE00050A824 /* FBSDKCoreKit.framework in Frameworks */,
-				A229A7531E4F12EF0050A824 /* ReactiveCocoa.framework in Frameworks */,
-				A229A73F1E4F12EF0050A824 /* Alamofire.framework in Frameworks */,
-				A229A7BB1E4F1CE00050A824 /* FBSDKShareKit.framework in Frameworks */,
-				A229A74D1E4F12EF0050A824 /* ExpandingCollection.framework in Frameworks */,
-				A229A7B91E4F1CE00050A824 /* FBSDKLoginKit.framework in Frameworks */,
-				A229A7591E4F12EF0050A824 /* Runes.framework in Frameworks */,
-				A229A7491E4F12EF0050A824 /* Curry.framework in Frameworks */,
-				A229A7571E4F12EF0050A824 /* Result.framework in Frameworks */,
-				A229A7411E4F12EF0050A824 /* AlamofireImage.framework in Frameworks */,
-				A229A7451E4F12EF0050A824 /* Argo.framework in Frameworks */,
-				A229A7471E4F12EF0050A824 /* AsyncDisplayKit.framework in Frameworks */,
-				A229A74F1E4F12EF0050A824 /* PINCache.framework in Frameworks */,
-				A229A7551E4F12EF0050A824 /* ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,27 +241,19 @@
 		A229A7651E4F12FC0050A824 /* Embedded */ = {
 			isa = PBXGroup;
 			children = (
+				A2AF09A11E9757AD0016B9BD /* ReactiveExtensions.framework */,
+				A2AF099D1E97576B0016B9BD /* Prelude_UIKit.framework */,
+				A2AF09991E97573F0016B9BD /* Prelude.framework */,
 				A229A7B41E4F1CE00050A824 /* FBSDKCoreKit.framework */,
 				A229A7B51E4F1CE00050A824 /* FBSDKLoginKit.framework */,
 				A229A7B61E4F1CE00050A824 /* FBSDKShareKit.framework */,
 				A229A72D1E4F12EF0050A824 /* Alamofire.framework */,
 				A229A72E1E4F12EF0050A824 /* AlamofireImage.framework */,
-				A229A72F1E4F12EF0050A824 /* Apollo.framework */,
 				A229A7301E4F12EF0050A824 /* Argo.framework */,
-				A229A7311E4F12EF0050A824 /* AsyncDisplayKit.framework */,
 				A229A7321E4F12EF0050A824 /* Curry.framework */,
-				A229A7331E4F12EF0050A824 /* Eureka.framework */,
-				A229A7341E4F12EF0050A824 /* ExpandingCollection.framework */,
-				A229A7351E4F12EF0050A824 /* PINCache.framework */,
-				A229A7361E4F12EF0050A824 /* PINRemoteImage.framework */,
-				A229A7371E4F12EF0050A824 /* ReactiveCocoa.framework */,
 				A229A7381E4F12EF0050A824 /* ReactiveSwift.framework */,
 				A229A7391E4F12EF0050A824 /* Result.framework */,
 				A229A73A1E4F12EF0050A824 /* Runes.framework */,
-				A229A73B1E4F12EF0050A824 /* RxBlocking.framework */,
-				A229A73C1E4F12EF0050A824 /* RxCocoa.framework */,
-				A229A73D1E4F12EF0050A824 /* RxSwift.framework */,
-				A229A73E1E4F12EF0050A824 /* RxTest.framework */,
 			);
 			name = Embedded;
 			sourceTree = "<group>";

@@ -1,0 +1,7 @@
+github "thoughtbot/Argo"
+github "thoughtbot/Curry"
+github "ReactiveCocoa/ReactiveSwift" ~> 1.0
+github "Alamofire/Alamofire" ~> 4.3
+github "Alamofire/AlamofireImage" ~> 3.1
+github "kickstarter/Kickstarter-Prelude" "master"
+github "kickstarter/Kickstarter-ReactiveExtensions" "master"

@@ -1,6 +1,6 @@
 //
 //  User.swift
-//  Facestar
+//  Boilerplate
 //
 //  Created by JohnP on 2/13/17.
 //  Copyright © 2017 JohnP. All rights reserved.
